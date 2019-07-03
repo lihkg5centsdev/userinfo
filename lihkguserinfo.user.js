@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         LIHKG User Info
-// @namespace    https://gist.github.com/lihkg5centsdev
+// @namespace    https://github.com/lihkg5centsdev/userinfo
 // @version      1.4
 // @description  LIHKG Show User Info (Registration Date, User Tag etc.)
 // @author       LIHKG 5Cents Dev
