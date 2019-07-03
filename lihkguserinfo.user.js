@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         LIHKG User Info
 // @namespace    https://gist.github.com/lihkg5centsdev
-// @version      1.3
+// @version      1.4
 // @description  LIHKG Show User Info (Registration Date, User Tag etc.)
 // @author       LIHKG 5Cents Dev
 // @match        https://lihkg.com/*
@@ -30,7 +30,7 @@ setInterval(getFilter, 600000) // update user filter list every 10 minutes
 getFilter()
 
 function getFilter() {
-    fetch("https://gist.githubusercontent.com/lihkg5centsdev/8a9fb09284f43b705d0d8c83a60240de/raw/lihkguserlist.json?_=" + new Date().getTime(), {
+    fetch("https://raw.githubusercontent.com/lihkg5centsdev/userinfo/master/lihkguserlist.json?_=" + new Date().getTime(), {
         method: 'GET',
         credentials: "omit"
     }).then(response => {
