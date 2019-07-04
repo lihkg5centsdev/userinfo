@@ -13,14 +13,17 @@
 // ==/UserScript==
 
 // 0.5 list
-let filter = {
-
-}
+let filter = {}
 
 const userType = [{
     title: '五毛',
     code: '<i class="fab fa-alipay" style="color: #FFD700"></i>'
-}, {title: '假膠', code: '<img alt=":o)" src="https://lihkg.com/assets/faces/normal/clown.gif">'}, {
+},
+{
+    title: '假膠',
+    code: '<img alt=":o)" src="https://lihkg.com/assets/faces/normal/clown.gif">'
+},
+{
     title: '分化',
     code: '<img src="https://lihkg.com/assets/faces/normal/dead.gif">'
 }]
